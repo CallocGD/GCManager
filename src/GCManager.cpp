@@ -12,9 +12,8 @@ GCManager* GCManager::sharedState(){
     mi_stl_allocator<GCManager>GCM_alloc;
     if (GLOBAL_GCMANAGER == nullptr){
        GCM_alloc.construct(GLOBAL_GCMANAGER);
-       return GLOBAL_GCMANAGER;
     }
-    return nullptr;
+    return GLOBAL_GCMANAGER;
 }
 
 GCManager::~GCManager(){
