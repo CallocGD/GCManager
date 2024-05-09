@@ -8,9 +8,7 @@
 
 /* Decided to build a smart Memeory Manager System for geode mods to 
  * implement but this could be useful for other programs outside of 
- * geometry dash, this was primary a concept after I had a chat with 
- * IAndy about it , I will wrap it with a gc library I found recently to 
- * help with this */
+ * geometry dash */
 
 
 /* todo maybe add in a mutex? */
